@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Lockhearth Media - Modern Pixel Theme</title>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/google/material-design-icons/master/src/action/token/materialicons/48dp/1x/baseline_token_black_48dp.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'pixel': ['"Press Start 2P"', 'cursive'],
+                        'sans': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'brand-purple': '#6366F1',
+                        'brand-purple-light': '#818CF8',
+                        'brand-gold': '#FBBF24',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .image-rendering-pixelated {
+            image-rendering: pixelated;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: crisp-edges;
+        }
+    </style>
+</head>
+<body class="font-sans bg-white text-gray-800">
+    
+    <div class="max-w-6xl mx-auto">
+
+        <!-- ===== BAGIAN HEADER & NAVIGASI ===== -->
+        <header class="p-6 flex justify-between items-center">
+            <a href="#" class="flex items-center space-x-2">
+                <img src="src/Images/logo.png" alt="[Ikon Logo]" class="h-8 w-8">
+                <span class="font-pixel text-lg text-gray-900">LOCKHEARTHMEDIA</span>
+            </a>
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#about" class="text-gray-600 hover:text-brand-purple transition-colors">Tentang</a>
+                <a href="#products" class="text-gray-600 hover:text-brand-purple transition-colors">Produk</a>
+                <a href="#contact" class="text-gray-600 hover:text-brand-purple transition-colors">Kontak</a>
+            </nav>
+        </header>
+
+        <!-- ===== BAGIAN HERO (UTAMA) ===== -->
+        <main class="text-center py-20 md:py-32 px-6">
+            <h1 class="font-pixel text-4xl md:text-6xl text-gray-900">LOCKHEARTHMEDIA</h1>
+            <p class="mt-4 text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+                Where every pixel holds a treasure. Supplier terpercaya Anda untuk item game Fisch di Roblox, berkolaborasi dengan JMHJG Store.
+            </p>
+            <div class="mt-8 flex justify-center gap-4">
+                <a href="#products" class="bg-brand-purple text-white font-bold py-3 px-8 rounded-lg hover:bg-brand-purple-light transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                    Lihat Produk
+                </a>
+                <a href="https://zeusx.com/seller/jmhjg-store-648332" target="_blank" rel="noopener noreferrer" class="bg-gray-200 text-gray-800 font-bold py-3 px-8 rounded-lg hover:bg-gray-300 transition-all">
+                    Toko ZeusX
+                </a>
+            </div>
+        </main>
+
+        <!-- ===== BAGIAN TENTANG KAMI ===== -->
+        <section id="about" class="py-20 px-6 bg-gray-50">
+            <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+                <div class="text-center md:text-left">
+                    <h2 class="font-pixel text-3xl text-gray-900 mb-4">TENTANG KAMI</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        Lockhearthmedia lahir dari kecintaan pada dunia game dan item digital. Kami percaya bahwa setiap item memiliki cerita dan nilai. Misi kami adalah menyediakan "harta karun" digital dari game Fisch dengan cara yang aman, cepat, dan terpercaya. Kolaborasi kami dengan <span class="font-bold text-brand-purple">JMHJG Store</span> memastikan kualitas dan keamanan transaksi Anda.
+                    </p>
+                </div>
+                <div>
+                    <img src="src/Images/logo.png" alt="[Gambar Ilustrasi Pixel]" class="rounded-lg shadow-xl mx-auto">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ===== BAGIAN PRODUK ===== -->
+        <section id="products" class="py-20 px-6">
+            <div class="text-center max-w-2xl mx-auto">
+                <h2 class="font-pixel text-3xl text-gray-900 mb-4">OUR TREASURES</h2>
+                <p class="text-gray-600">Temukan item-item langka dan eksklusif untuk meningkatkan pengalaman bermain Anda.</p>
+            </div>
+            
+            <div class="mt-16 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Kartu Produk 1 -->
+                <div class="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 flex flex-col">
+                    <img alt="[Orca]" src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/02/how-to-get-an-orca-in-fisch-2.jpg" class="rounded-t-lg h-56 w-full object-cover">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-bold text-gray-900">3x-Orca</h3>
+                        <p class="mt-2 text-gray-600 flex-grow">3x Orca, Orca, Orca</p>
+                        <a href="https://zeusx.com/game/roblox-in-game-items/23/in-game-items/3x-orca-fisch-jmhjg-9742517" target="_blank" rel="noopener noreferrer" class="mt-4 block w-full bg-brand-purple text-white text-center font-bold py-2 px-4 rounded-md hover:bg-brand-purple-light transition-colors">BELI ($1)</a>
+                    </div>
+                </div>
+
+                <!-- Kartu Produk 2 -->
+                <div class="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 flex flex-col">
+                    <img alt="[Subspace Lovestorm Eel]" src="https://dotesports.com/wp-content/uploads/2025/02/Fisch-Lovestorm-Eel-Cover.jpg">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-bold text-gray-900">Subspace Lovestorm Eel</h3>
+                        <p class="mt-2 text-gray-600 flex-grow">Belut cinta subspasial, indah dan mematikan.</p>
+                        <a href="https://zeusx.com/game/roblox-in-game-items/23/in-game-items/subspace-lovestorm-eel-limited-event-valentine-sub-fisch-jmhjg-9755086" target="_blank" rel="noopener noreferrer" class="mt-4 block w-full bg-brand-purple text-white text-center font-bold py-2 px-4 rounded-md hover:bg-brand-purple-light transition-colors">BELI ($1)</a>
+                    </div>
+                </div>
+
+                <!-- Kartu Produk 3 -->
+                <div class="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 flex flex-col">
+                    <img alt="[Crowned Anglerfish]" src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/02/how-to-catch-crowned-anglerfish-in-fisch.jpg">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-bold text-gray-900">3x-Crowned Anglerfish</h3>
+                        <p class="mt-2 text-gray-600 flex-grow">Mahkota bersinar, gigitan mematikan.</p>
+                        <a href="https://zeusx.com/game/roblox-in-game-items/23/in-game-items/3x-crowned-anglerfish-mariana-update-secret-zenith-fisch-jmhjg-9862237" target="_blank" rel="noopener noreferrer" class="mt-4 block w-full bg-brand-purple text-white text-center font-bold py-2 px-4 rounded-md hover:bg-brand-purple-light transition-colors">BELI ($1)</a>
+                    </div>
+                </div>
+
+                <!-- Kartu Produk 4 -->
+                <div class="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 flex flex-col">
+                    <img alt="[Ancient Megalodon]" src="https://static.wikia.nocookie.net/d04ba3cd-3e15-4b5a-bab2-b0ad6b0bf0e1/scale-to-width/755">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-bold text-gray-900">Ancient Megalodon</h3>
+                        <p class="mt-2 text-gray-600 flex-grow">Legenda hidup, penguasa kedalaman kuno.</p>
+                        <a href="https://zeusx.com/game/roblox-in-game-items/23/in-game-items/1x-ancient-megalodon-fisch-jmhjg-fisch-9713457" target="_blank" rel="noopener noreferrer" class="mt-4 block w-full bg-brand-purple text-white text-center font-bold py-2 px-4 rounded-md hover:bg-brand-purple-light transition-colors">BELI ($1)</a>
+                    </div>
+                </div>
+
+                <!-- Kartu Produk 5 -->
+                <div class="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 flex flex-col">
+                    <img alt="[Subspace Orca]" src="https://i.ytimg.com/vi/2Xidi8_bNJU/maxresdefault.jpg">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-bold text-gray-900">Subspace Orca</h3>
+                        <p class="mt-2 text-gray-600 flex-grow">Penjelajah samudra misterius, kuat, langka.</p>
+                        <a href="https://zeusx.com/game/roblox-in-game-items/23/in-game-items/subpace-orca-sub-orca-fisch-jmhjg-9754938" target="_blank" rel="noopener noreferrer" class="mt-4 block w-full bg-brand-purple text-white text-center font-bold py-2 px-4 rounded-md hover:bg-brand-purple-light transition-colors">BELI ($1)</a>
+                    </div>
+                </div>
+
+                <!-- Kartu Produk 6 -->
+                <div class="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 flex flex-col">
+                    <img alt="[Magma Leviathan]" src="https://static.wikia.nocookie.net/dceed9eb-dbe5-42b0-94a4-d7cc55fe9293/scale-to-width/755">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-bold text-gray-900">3x-Magma Leviathan</h3>
+                        <p class="mt-2 text-gray-600 flex-grow">Penguasa lautan berapi, tangguh, eksklusif.</p>
+                        <a href="https://zeusx.com/game/roblox-in-game-items/23/in-game-items/3x-magma-leviathan-secret-fisch-jmhjg-9861934" target="_blank" rel="noopener noreferrer" class="mt-4 block w-full bg-brand-purple text-white text-center font-bold py-2 px-4 rounded-md hover:bg-brand-purple-light transition-colors">BELI ($1)</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== BAGIAN FOOTER ===== -->
+        <footer id="contact" class="bg-gray-900 text-white mt-20">
+            <div class="max-w-5xl mx-auto py-12 px-6 text-center">
+                <h2 class="font-pixel text-2xl mb-4">HUBUNGI KAMI</h2>
+                <p class="text-gray-400 mb-6">Temukan kami di media sosial dan marketplace favorit Anda.</p>
+                <div class="flex justify-center items-center space-x-6">
+                    <a href="https://www.instagram.com/lockheartmedia.us/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors text-sm font-semibold uppercase">Instagram</a>
+                    <a href="https://zeusx.com/seller/jmhjg-store-648332" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors text-sm font-semibold uppercase">ZeusX Store</a>
+                </div>
+                <p class="text-xs mt-10 text-gray-500">
+                    &copy; <span id="current-year"></span> LOCKHEARTH MEDIA. ALL RIGHTS RESERVED.
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Script untuk menampilkan tahun sekarang secara otomatis -->
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
